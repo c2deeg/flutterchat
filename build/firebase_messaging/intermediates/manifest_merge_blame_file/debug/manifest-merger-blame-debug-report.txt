@@ -1,0 +1,84 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="io.flutter.plugins.firebase.messaging" >
+4
+5    <uses-sdk
+6        android:minSdkVersion="19"
+6-->/root/snap/flutter/common/flutter/.pub-cache/hosted/pub.dartlang.org/firebase_messaging-11.4.0/android/src/main/AndroidManifest.xml
+7        android:targetSdkVersion="19" />
+7-->/root/snap/flutter/common/flutter/.pub-cache/hosted/pub.dartlang.org/firebase_messaging-11.4.0/android/src/main/AndroidManifest.xml
+8
+9    <uses-permission android:name="android.permission.INTERNET" />
+9-->/root/snap/flutter/common/flutter/.pub-cache/hosted/pub.dartlang.org/firebase_messaging-11.4.0/android/src/main/AndroidManifest.xml:3:3-64
+9-->/root/snap/flutter/common/flutter/.pub-cache/hosted/pub.dartlang.org/firebase_messaging-11.4.0/android/src/main/AndroidManifest.xml:3:20-62
+10    <uses-permission android:name="android.permission.WAKE_LOCK" />
+10-->/root/snap/flutter/common/flutter/.pub-cache/hosted/pub.dartlang.org/firebase_messaging-11.4.0/android/src/main/AndroidManifest.xml:4:3-65
+10-->/root/snap/flutter/common/flutter/.pub-cache/hosted/pub.dartlang.org/firebase_messaging-11.4.0/android/src/main/AndroidManifest.xml:4:20-63
+11    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+11-->/root/snap/flutter/common/flutter/.pub-cache/hosted/pub.dartlang.org/firebase_messaging-11.4.0/android/src/main/AndroidManifest.xml:5:3-76
+11-->/root/snap/flutter/common/flutter/.pub-cache/hosted/pub.dartlang.org/firebase_messaging-11.4.0/android/src/main/AndroidManifest.xml:5:20-74
+12
+13    <application>
+13-->/root/snap/flutter/common/flutter/.pub-cache/hosted/pub.dartlang.org/firebase_messaging-11.4.0/android/src/main/AndroidManifest.xml:6:3-34:17
+14        <service
+14-->/root/snap/flutter/common/flutter/.pub-cache/hosted/pub.dartlang.org/firebase_messaging-11.4.0/android/src/main/AndroidManifest.xml:7:5-10:33
+15            android:name="io.flutter.plugins.firebase.messaging.FlutterFirebaseMessagingBackgroundService"
+15-->/root/snap/flutter/common/flutter/.pub-cache/hosted/pub.dartlang.org/firebase_messaging-11.4.0/android/src/main/AndroidManifest.xml:8:7-64
+16            android:exported="false"
+16-->/root/snap/flutter/common/flutter/.pub-cache/hosted/pub.dartlang.org/firebase_messaging-11.4.0/android/src/main/AndroidManifest.xml:10:7-31
+17            android:permission="android.permission.BIND_JOB_SERVICE" />
+17-->/root/snap/flutter/common/flutter/.pub-cache/hosted/pub.dartlang.org/firebase_messaging-11.4.0/android/src/main/AndroidManifest.xml:9:7-63
+18        <service
+18-->/root/snap/flutter/common/flutter/.pub-cache/hosted/pub.dartlang.org/firebase_messaging-11.4.0/android/src/main/AndroidManifest.xml:11:5-16:15
+19            android:name="io.flutter.plugins.firebase.messaging.FlutterFirebaseMessagingService"
+19-->/root/snap/flutter/common/flutter/.pub-cache/hosted/pub.dartlang.org/firebase_messaging-11.4.0/android/src/main/AndroidManifest.xml:11:14-61
+20            android:exported="false" >
+20-->/root/snap/flutter/common/flutter/.pub-cache/hosted/pub.dartlang.org/firebase_messaging-11.4.0/android/src/main/AndroidManifest.xml:12:7-31
+21            <intent-filter>
+21-->/root/snap/flutter/common/flutter/.pub-cache/hosted/pub.dartlang.org/firebase_messaging-11.4.0/android/src/main/AndroidManifest.xml:13:7-15:23
+22                <action android:name="com.google.firebase.MESSAGING_EVENT" />
+22-->/root/snap/flutter/common/flutter/.pub-cache/hosted/pub.dartlang.org/firebase_messaging-11.4.0/android/src/main/AndroidManifest.xml:14:9-69
+22-->/root/snap/flutter/common/flutter/.pub-cache/hosted/pub.dartlang.org/firebase_messaging-11.4.0/android/src/main/AndroidManifest.xml:14:17-67
+23            </intent-filter>
+24        </service>
+25
+26        <receiver
+26-->/root/snap/flutter/common/flutter/.pub-cache/hosted/pub.dartlang.org/firebase_messaging-11.4.0/android/src/main/AndroidManifest.xml:17:5-24:16
+27            android:name="io.flutter.plugins.firebase.messaging.FlutterFirebaseMessagingReceiver"
+27-->/root/snap/flutter/common/flutter/.pub-cache/hosted/pub.dartlang.org/firebase_messaging-11.4.0/android/src/main/AndroidManifest.xml:18:7-55
+28            android:exported="true"
+28-->/root/snap/flutter/common/flutter/.pub-cache/hosted/pub.dartlang.org/firebase_messaging-11.4.0/android/src/main/AndroidManifest.xml:19:7-30
+29            android:permission="com.google.android.c2dm.permission.SEND" >
+29-->/root/snap/flutter/common/flutter/.pub-cache/hosted/pub.dartlang.org/firebase_messaging-11.4.0/android/src/main/AndroidManifest.xml:20:7-67
+30            <intent-filter>
+30-->/root/snap/flutter/common/flutter/.pub-cache/hosted/pub.dartlang.org/firebase_messaging-11.4.0/android/src/main/AndroidManifest.xml:21:7-23:23
+31                <action android:name="com.google.android.c2dm.intent.RECEIVE" />
+31-->/root/snap/flutter/common/flutter/.pub-cache/hosted/pub.dartlang.org/firebase_messaging-11.4.0/android/src/main/AndroidManifest.xml:22:9-73
+31-->/root/snap/flutter/common/flutter/.pub-cache/hosted/pub.dartlang.org/firebase_messaging-11.4.0/android/src/main/AndroidManifest.xml:22:17-70
+32            </intent-filter>
+33        </receiver>
+34
+35        <service android:name="com.google.firebase.components.ComponentDiscoveryService" >
+35-->/root/snap/flutter/common/flutter/.pub-cache/hosted/pub.dartlang.org/firebase_messaging-11.4.0/android/src/main/AndroidManifest.xml:25:5-28:15
+35-->/root/snap/flutter/common/flutter/.pub-cache/hosted/pub.dartlang.org/firebase_messaging-11.4.0/android/src/main/AndroidManifest.xml:25:14-85
+36            <meta-data
+36-->/root/snap/flutter/common/flutter/.pub-cache/hosted/pub.dartlang.org/firebase_messaging-11.4.0/android/src/main/AndroidManifest.xml:26:7-27:86
+37                android:name="com.google.firebase.components:io.flutter.plugins.firebase.messaging.FlutterFirebaseAppRegistrar"
+37-->/root/snap/flutter/common/flutter/.pub-cache/hosted/pub.dartlang.org/firebase_messaging-11.4.0/android/src/main/AndroidManifest.xml:26:18-129
+38                android:value="com.google.firebase.components.ComponentRegistrar" />
+38-->/root/snap/flutter/common/flutter/.pub-cache/hosted/pub.dartlang.org/firebase_messaging-11.4.0/android/src/main/AndroidManifest.xml:27:18-83
+39        </service>
+40
+41        <provider
+41-->/root/snap/flutter/common/flutter/.pub-cache/hosted/pub.dartlang.org/firebase_messaging-11.4.0/android/src/main/AndroidManifest.xml:29:5-33:32
+42            android:name="io.flutter.plugins.firebase.messaging.FlutterFirebaseMessagingInitProvider"
+42-->/root/snap/flutter/common/flutter/.pub-cache/hosted/pub.dartlang.org/firebase_messaging-11.4.0/android/src/main/AndroidManifest.xml:30:7-59
+43            android:authorities="${applicationId}.flutterfirebasemessaginginitprovider"
+43-->/root/snap/flutter/common/flutter/.pub-cache/hosted/pub.dartlang.org/firebase_messaging-11.4.0/android/src/main/AndroidManifest.xml:31:7-82
+44            android:exported="false"
+44-->/root/snap/flutter/common/flutter/.pub-cache/hosted/pub.dartlang.org/firebase_messaging-11.4.0/android/src/main/AndroidManifest.xml:32:7-31
+45            android:initOrder="99" /> <!-- Firebase = 100, using 99 to run after Firebase initialises (highest first) -->
+45-->/root/snap/flutter/common/flutter/.pub-cache/hosted/pub.dartlang.org/firebase_messaging-11.4.0/android/src/main/AndroidManifest.xml:33:7-29
+46    </application>
+47
+48</manifest>

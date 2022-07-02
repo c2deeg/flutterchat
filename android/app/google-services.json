@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "249658026297",
+    "project_id": "driver-cle",
+    "storage_bucket": "driver-cle.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:249658026297:android:af1e7e822044ac1384e0e8",
+        "android_client_info": {
+          "package_name": "com.example.cle_app"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "249658026297-b5k51uq0h2i2kcnb8k4bhhe6s980cgro.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAss5VJos1SbzCaJgnVJZAQZz28cn4-d7w"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "249658026297-b5k51uq0h2i2kcnb8k4bhhe6s980cgro.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

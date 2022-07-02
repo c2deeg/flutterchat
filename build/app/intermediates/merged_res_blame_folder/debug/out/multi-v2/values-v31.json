@@ -1,0 +1,28 @@
+{
+    "logs": [
+        {
+            "outputFile": "/home/mspl/MsplProjects/MSPL/newDriveCle/drivecle/cle_app/build/app/intermediates/incremental/mergeDebugResources/merged.dir/values-v31/values-v31.xml",
+            "map": [
+                {
+                    "source": "/home/mspl/MsplProjects/MSPL/newDriveCle/drivecle/cle_app/android/app/src/main/res/values-v31/styles.xml",
+                    "from": {
+                        "startLines": "3,14",
+                        "startColumns": "4,4",
+                        "startOffsets": "173,821",
+                        "endLines": "7,16",
+                        "endColumns": "12,12",
+                        "endOffsets": "470,985"
+                    },
+                    "to": {
+                        "startLines": "2,7",
+                        "startColumns": "4,4",
+                        "startOffsets": "55,357",
+                        "endLines": "6,9",
+                        "endColumns": "12,12",
+                        "endOffsets": "352,521"
+                    }
+                }
+            ]
+        }
+    ]
+}

@@ -1,0 +1,570 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="com.example.cle_app"
+4    android:versionCode="1"
+5    android:versionName="1.0.0" >
+6
+7    <uses-sdk
+8        android:minSdkVersion="21"
+9        android:targetSdkVersion="31" />
+10    <!--
+11         The INTERNET permission is required for development. Specifically,
+12         the Flutter tool needs it to communicate with the running application
+13         to allow setting breakpoints, to provide hot reload, etc.
+14    -->
+15    <uses-permission android:name="android.permission.INTERNET" />
+15-->/home/mspl/MsplProjects/MSPL/newDriveCle/drivecle/cle_app/android/app/src/main/AndroidManifest.xml:30:5-66
+15-->/home/mspl/MsplProjects/MSPL/newDriveCle/drivecle/cle_app/android/app/src/main/AndroidManifest.xml:30:22-64
+16
+17    <queries>
+17-->/home/mspl/MsplProjects/MSPL/newDriveCle/drivecle/cle_app/android/app/src/main/AndroidManifest.xml:3:5-24:15
+18
+19        <!-- If your app opens https URLs -->
+20        <intent>
+20-->/home/mspl/MsplProjects/MSPL/newDriveCle/drivecle/cle_app/android/app/src/main/AndroidManifest.xml:5:7-8:16
+21            <action android:name="android.intent.action.VIEW" />
+21-->/home/mspl/MsplProjects/MSPL/newDriveCle/drivecle/cle_app/android/app/src/main/AndroidManifest.xml:6:9-61
+21-->/home/mspl/MsplProjects/MSPL/newDriveCle/drivecle/cle_app/android/app/src/main/AndroidManifest.xml:6:17-58
+22
+23            <data android:scheme="https" />
+23-->/home/mspl/MsplProjects/MSPL/newDriveCle/drivecle/cle_app/android/app/src/main/AndroidManifest.xml:7:9-40
+23-->/home/mspl/MsplProjects/MSPL/newDriveCle/drivecle/cle_app/android/app/src/main/AndroidManifest.xml:7:15-37
+24        </intent>
+25        <!-- If your app makes calls -->
+26        <intent>
+26-->/home/mspl/MsplProjects/MSPL/newDriveCle/drivecle/cle_app/android/app/src/main/AndroidManifest.xml:10:7-13:16
+27            <action android:name="android.intent.action.DIAL" />
+27-->/home/mspl/MsplProjects/MSPL/newDriveCle/drivecle/cle_app/android/app/src/main/AndroidManifest.xml:11:9-61
+27-->/home/mspl/MsplProjects/MSPL/newDriveCle/drivecle/cle_app/android/app/src/main/AndroidManifest.xml:11:17-58
+28
+29            <data android:scheme="tel" />
+29-->/home/mspl/MsplProjects/MSPL/newDriveCle/drivecle/cle_app/android/app/src/main/AndroidManifest.xml:7:9-40
+29-->/home/mspl/MsplProjects/MSPL/newDriveCle/drivecle/cle_app/android/app/src/main/AndroidManifest.xml:7:15-37
+30        </intent>
+31        <!-- If your sends SMS messages -->
+32        <intent>
+32-->/home/mspl/MsplProjects/MSPL/newDriveCle/drivecle/cle_app/android/app/src/main/AndroidManifest.xml:15:7-18:16
+33            <action android:name="android.intent.action.SENDTO" />
+33-->/home/mspl/MsplProjects/MSPL/newDriveCle/drivecle/cle_app/android/app/src/main/AndroidManifest.xml:16:9-63
+33-->/home/mspl/MsplProjects/MSPL/newDriveCle/drivecle/cle_app/android/app/src/main/AndroidManifest.xml:16:17-60
+34
+35            <data android:scheme="mailto" />
+35-->/home/mspl/MsplProjects/MSPL/newDriveCle/drivecle/cle_app/android/app/src/main/AndroidManifest.xml:7:9-40
+35-->/home/mspl/MsplProjects/MSPL/newDriveCle/drivecle/cle_app/android/app/src/main/AndroidManifest.xml:7:15-37
+36        </intent>
+37        <!-- If your app sends emails -->
+38        <intent>
+38-->/home/mspl/MsplProjects/MSPL/newDriveCle/drivecle/cle_app/android/app/src/main/AndroidManifest.xml:20:7-23:16
+39            <action android:name="android.intent.action.SEND" />
+39-->/home/mspl/MsplProjects/MSPL/newDriveCle/drivecle/cle_app/android/app/src/main/AndroidManifest.xml:21:9-61
+39-->/home/mspl/MsplProjects/MSPL/newDriveCle/drivecle/cle_app/android/app/src/main/AndroidManifest.xml:21:17-58
+40
+41            <data android:mimeType="*/*" />
+41-->/home/mspl/MsplProjects/MSPL/newDriveCle/drivecle/cle_app/android/app/src/main/AndroidManifest.xml:7:9-40
+42        </intent>
+43        <intent>
+43-->[:file_picker] /home/mspl/MsplProjects/MSPL/newDriveCle/drivecle/cle_app/build/file_picker/intermediates/merged_manifest/debug/AndroidManifest.xml:12:9-16:18
+44            <action android:name="android.intent.action.GET_CONTENT" />
+44-->[:file_picker] /home/mspl/MsplProjects/MSPL/newDriveCle/drivecle/cle_app/build/file_picker/intermediates/merged_manifest/debug/AndroidManifest.xml:13:13-72
+44-->[:file_picker] /home/mspl/MsplProjects/MSPL/newDriveCle/drivecle/cle_app/build/file_picker/intermediates/merged_manifest/debug/AndroidManifest.xml:13:21-69
+45
+46            <data android:mimeType="*/*" />
+46-->/home/mspl/MsplProjects/MSPL/newDriveCle/drivecle/cle_app/android/app/src/main/AndroidManifest.xml:7:9-40
+47        </intent>
+48    </queries>
+49
+50    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+50-->/home/mspl/MsplProjects/MSPL/newDriveCle/drivecle/cle_app/android/app/src/main/AndroidManifest.xml:25:5-79
+50-->/home/mspl/MsplProjects/MSPL/newDriveCle/drivecle/cle_app/android/app/src/main/AndroidManifest.xml:25:22-76
+51    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
+51-->/home/mspl/MsplProjects/MSPL/newDriveCle/drivecle/cle_app/android/app/src/main/AndroidManifest.xml:26:5-81
+51-->/home/mspl/MsplProjects/MSPL/newDriveCle/drivecle/cle_app/android/app/src/main/AndroidManifest.xml:26:22-78
+52    <uses-permission android:name="android.permission.USE_FINGERPRINT" />
+52-->/home/mspl/MsplProjects/MSPL/newDriveCle/drivecle/cle_app/android/app/src/main/AndroidManifest.xml:27:5-73
+52-->/home/mspl/MsplProjects/MSPL/newDriveCle/drivecle/cle_app/android/app/src/main/AndroidManifest.xml:27:22-71
+53    <uses-permission android:name="android.permission.FOREGROUND_SERVICE" />
+53-->/home/mspl/MsplProjects/MSPL/newDriveCle/drivecle/cle_app/android/app/src/main/AndroidManifest.xml:28:5-77
+53-->/home/mspl/MsplProjects/MSPL/newDriveCle/drivecle/cle_app/android/app/src/main/AndroidManifest.xml:28:22-74
+54    <uses-permission android:name="android.permission.ACCESS_BACKGROUND_LOCATION" />
+54-->/home/mspl/MsplProjects/MSPL/newDriveCle/drivecle/cle_app/android/app/src/main/AndroidManifest.xml:29:5-84
+54-->/home/mspl/MsplProjects/MSPL/newDriveCle/drivecle/cle_app/android/app/src/main/AndroidManifest.xml:29:22-82
+55    <uses-permission android:name="android.permission.WAKE_LOCK" />
+55-->[:firebase_messaging] /home/mspl/MsplProjects/MSPL/newDriveCle/drivecle/cle_app/build/firebase_messaging/intermediates/merged_manifest/debug/AndroidManifest.xml:10:5-68
+55-->[:firebase_messaging] /home/mspl/MsplProjects/MSPL/newDriveCle/drivecle/cle_app/build/firebase_messaging/intermediates/merged_manifest/debug/AndroidManifest.xml:10:22-65
+56    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+56-->[:firebase_messaging] /home/mspl/MsplProjects/MSPL/newDriveCle/drivecle/cle_app/build/firebase_messaging/intermediates/merged_manifest/debug/AndroidManifest.xml:11:5-79
+56-->[:firebase_messaging] /home/mspl/MsplProjects/MSPL/newDriveCle/drivecle/cle_app/build/firebase_messaging/intermediates/merged_manifest/debug/AndroidManifest.xml:11:22-76
+57    <uses-permission android:name="android.permission.RECEIVE_BOOT_COMPLETED" />
+57-->[:flutter_local_notifications] /home/mspl/MsplProjects/MSPL/newDriveCle/drivecle/cle_app/build/flutter_local_notifications/intermediates/merged_manifest/debug/AndroidManifest.xml:9:5-81
+57-->[:flutter_local_notifications] /home/mspl/MsplProjects/MSPL/newDriveCle/drivecle/cle_app/build/flutter_local_notifications/intermediates/merged_manifest/debug/AndroidManifest.xml:9:22-78
+58    <uses-permission android:name="android.permission.VIBRATE" />
+58-->[:flutter_local_notifications] /home/mspl/MsplProjects/MSPL/newDriveCle/drivecle/cle_app/build/flutter_local_notifications/intermediates/merged_manifest/debug/AndroidManifest.xml:10:5-66
+58-->[:flutter_local_notifications] /home/mspl/MsplProjects/MSPL/newDriveCle/drivecle/cle_app/build/flutter_local_notifications/intermediates/merged_manifest/debug/AndroidManifest.xml:10:22-63
+59    <uses-permission android:name="android.permission.USE_FULL_SCREEN_INTENT" />
+59-->[:flutter_local_notifications] /home/mspl/MsplProjects/MSPL/newDriveCle/drivecle/cle_app/build/flutter_local_notifications/intermediates/merged_manifest/debug/AndroidManifest.xml:11:5-81
+59-->[:flutter_local_notifications] /home/mspl/MsplProjects/MSPL/newDriveCle/drivecle/cle_app/build/flutter_local_notifications/intermediates/merged_manifest/debug/AndroidManifest.xml:11:22-78
+60    <uses-permission android:name="android.permission.SCHEDULE_EXACT_ALARM" />
+60-->[:flutter_local_notifications] /home/mspl/MsplProjects/MSPL/newDriveCle/drivecle/cle_app/build/flutter_local_notifications/intermediates/merged_manifest/debug/AndroidManifest.xml:12:5-79
+60-->[:flutter_local_notifications] /home/mspl/MsplProjects/MSPL/newDriveCle/drivecle/cle_app/build/flutter_local_notifications/intermediates/merged_manifest/debug/AndroidManifest.xml:12:22-76
+61    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+61-->[:file_picker] /home/mspl/MsplProjects/MSPL/newDriveCle/drivecle/cle_app/build/file_picker/intermediates/merged_manifest/debug/AndroidManifest.xml:9:5-80
+61-->[:file_picker] /home/mspl/MsplProjects/MSPL/newDriveCle/drivecle/cle_app/build/file_picker/intermediates/merged_manifest/debug/AndroidManifest.xml:9:22-77
+62    <uses-permission android:name="android.permission.REQUEST_INSTALL_PACKAGES" /> <!-- Required by older versions of Google Play services to create IID tokens -->
+62-->[:open_file] /home/mspl/MsplProjects/MSPL/newDriveCle/drivecle/cle_app/build/open_file/intermediates/merged_manifest/debug/AndroidManifest.xml:10:5-83
+62-->[:open_file] /home/mspl/MsplProjects/MSPL/newDriveCle/drivecle/cle_app/build/open_file/intermediates/merged_manifest/debug/AndroidManifest.xml:10:22-80
+63    <uses-permission android:name="com.google.android.c2dm.permission.RECEIVE" />
+63-->[com.google.firebase:firebase-messaging:23.0.5] /root/.gradle/caches/transforms-3/3ad296278385ed3dad29098692776c3a/transformed/jetified-firebase-messaging-23.0.5/AndroidManifest.xml:28:5-82
+63-->[com.google.firebase:firebase-messaging:23.0.5] /root/.gradle/caches/transforms-3/3ad296278385ed3dad29098692776c3a/transformed/jetified-firebase-messaging-23.0.5/AndroidManifest.xml:28:22-79
+64    <uses-permission android:name="com.google.android.gms.permission.AD_ID" />
+64-->[com.google.android.gms:play-services-measurement-api:21.0.0] /root/.gradle/caches/transforms-3/90165817247b2844e8eda7168c378e87/transformed/jetified-play-services-measurement-api-21.0.0/AndroidManifest.xml:25:5-79
+64-->[com.google.android.gms:play-services-measurement-api:21.0.0] /root/.gradle/caches/transforms-3/90165817247b2844e8eda7168c378e87/transformed/jetified-play-services-measurement-api-21.0.0/AndroidManifest.xml:25:22-76
+65    <uses-permission android:name="com.google.android.finsky.permission.BIND_GET_INSTALL_REFERRER_SERVICE" />
+65-->[com.google.android.gms:play-services-measurement:21.0.0] /root/.gradle/caches/transforms-3/3515b14a06022a5b1e9c2b526393d08e/transformed/jetified-play-services-measurement-21.0.0/AndroidManifest.xml:26:5-110
+65-->[com.google.android.gms:play-services-measurement:21.0.0] /root/.gradle/caches/transforms-3/3515b14a06022a5b1e9c2b526393d08e/transformed/jetified-play-services-measurement-21.0.0/AndroidManifest.xml:26:22-107
+66    <uses-permission android:name="android.permission.USE_BIOMETRIC" />
+66-->[androidx.biometric:biometric:1.1.0] /root/.gradle/caches/transforms-3/8f888f2496877888981aa072bd0b2c12/transformed/biometric-1.1.0/AndroidManifest.xml:24:5-72
+66-->[androidx.biometric:biometric:1.1.0] /root/.gradle/caches/transforms-3/8f888f2496877888981aa072bd0b2c12/transformed/biometric-1.1.0/AndroidManifest.xml:24:22-69
+67
+68    <uses-feature
+68-->[com.google.android.gms:play-services-maps:17.0.0] /root/.gradle/caches/transforms-3/614181b2f6fee646dd418a7dc0328cbb/transformed/jetified-play-services-maps-17.0.0/AndroidManifest.xml:26:5-28:35
+69        android:glEsVersion="0x00020000"
+69-->[com.google.android.gms:play-services-maps:17.0.0] /root/.gradle/caches/transforms-3/614181b2f6fee646dd418a7dc0328cbb/transformed/jetified-play-services-maps-17.0.0/AndroidManifest.xml:27:9-41
+70        android:required="true" />
+70-->[com.google.android.gms:play-services-maps:17.0.0] /root/.gradle/caches/transforms-3/614181b2f6fee646dd418a7dc0328cbb/transformed/jetified-play-services-maps-17.0.0/AndroidManifest.xml:28:9-32
+71
+72    <application
+73        android:name="android.app.Application"
+74        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+74-->[androidx.core:core:1.7.0] /root/.gradle/caches/transforms-3/9715db44c26410d347cc51f0267013c0/transformed/core-1.7.0/AndroidManifest.xml:24:18-86
+75        android:debuggable="true"
+76        android:icon="@mipmap/launcher_icon"
+77        android:label="Drive CLE"
+78        android:usesCleartextTraffic="true" >
+79        <activity
+80            android:name="com.example.cle_app.MainActivity"
+81            android:configChanges="orientation|keyboardHidden|keyboard|screenSize|smallestScreenSize|locale|layoutDirection|fontScale|screenLayout|density|uiMode"
+82            android:exported="true"
+83            android:hardwareAccelerated="true"
+84            android:launchMode="singleTop"
+85            android:theme="@style/LaunchTheme"
+86            android:windowSoftInputMode="adjustResize" >
+87
+88            <!--
+89                 Specifies an Android theme to apply to this Activity as soon as
+90                 the Android process has started. This theme is visible to the user
+91                 while the Flutter UI initializes. After that, this theme continues
+92                 to determine the Window background behind the Flutter UI.
+93            -->
+94            <meta-data
+95                android:name="io.flutter.embedding.android.NormalTheme"
+96                android:resource="@style/NormalTheme" />
+97
+98            <intent-filter>
+99                <action android:name="android.intent.action.MAIN" />
+100
+101                <category android:name="android.intent.category.LAUNCHER" />
+102            </intent-filter>
+103        </activity>
+104        <activity
+105            android:name="com.yalantis.ucrop.UCropActivity"
+106            android:screenOrientation="portrait"
+107            android:theme="@style/Theme.AppCompat.Light.NoActionBar" />
+108        <!--
+109             Don't delete the meta-data below.
+110             This is used by the Flutter tool to generate GeneratedPluginRegistrant.java
+111        -->
+112        <meta-data
+113            android:name="flutterEmbedding"
+114            android:value="2" />
+115        <meta-data
+116            android:name="com.google.android.geo.API_KEY"
+117            android:value="YOUR_API_KEY_GOES_HERE" />
+118
+119        <service
+119-->[:firebase_messaging] /home/mspl/MsplProjects/MSPL/newDriveCle/drivecle/cle_app/build/firebase_messaging/intermediates/merged_manifest/debug/AndroidManifest.xml:14:9-17:72
+120            android:name="io.flutter.plugins.firebase.messaging.FlutterFirebaseMessagingBackgroundService"
+120-->[:firebase_messaging] /home/mspl/MsplProjects/MSPL/newDriveCle/drivecle/cle_app/build/firebase_messaging/intermediates/merged_manifest/debug/AndroidManifest.xml:15:13-107
+121            android:exported="false"
+121-->[:firebase_messaging] /home/mspl/MsplProjects/MSPL/newDriveCle/drivecle/cle_app/build/firebase_messaging/intermediates/merged_manifest/debug/AndroidManifest.xml:16:13-37
+122            android:permission="android.permission.BIND_JOB_SERVICE" />
+122-->[:firebase_messaging] /home/mspl/MsplProjects/MSPL/newDriveCle/drivecle/cle_app/build/firebase_messaging/intermediates/merged_manifest/debug/AndroidManifest.xml:17:13-69
+123        <service
+123-->[:firebase_messaging] /home/mspl/MsplProjects/MSPL/newDriveCle/drivecle/cle_app/build/firebase_messaging/intermediates/merged_manifest/debug/AndroidManifest.xml:18:9-24:19
+124            android:name="io.flutter.plugins.firebase.messaging.FlutterFirebaseMessagingService"
+124-->[:firebase_messaging] /home/mspl/MsplProjects/MSPL/newDriveCle/drivecle/cle_app/build/firebase_messaging/intermediates/merged_manifest/debug/AndroidManifest.xml:19:13-97
+125            android:exported="false" >
+125-->[:firebase_messaging] /home/mspl/MsplProjects/MSPL/newDriveCle/drivecle/cle_app/build/firebase_messaging/intermediates/merged_manifest/debug/AndroidManifest.xml:20:13-37
+126            <intent-filter>
+126-->[:firebase_messaging] /home/mspl/MsplProjects/MSPL/newDriveCle/drivecle/cle_app/build/firebase_messaging/intermediates/merged_manifest/debug/AndroidManifest.xml:21:13-23:29
+127                <action android:name="com.google.firebase.MESSAGING_EVENT" />
+127-->[:firebase_messaging] /home/mspl/MsplProjects/MSPL/newDriveCle/drivecle/cle_app/build/firebase_messaging/intermediates/merged_manifest/debug/AndroidManifest.xml:22:17-78
+127-->[:firebase_messaging] /home/mspl/MsplProjects/MSPL/newDriveCle/drivecle/cle_app/build/firebase_messaging/intermediates/merged_manifest/debug/AndroidManifest.xml:22:25-75
+128            </intent-filter>
+129        </service>
+130
+131        <receiver
+131-->[:firebase_messaging] /home/mspl/MsplProjects/MSPL/newDriveCle/drivecle/cle_app/build/firebase_messaging/intermediates/merged_manifest/debug/AndroidManifest.xml:26:9-33:20
+132            android:name="io.flutter.plugins.firebase.messaging.FlutterFirebaseMessagingReceiver"
+132-->[:firebase_messaging] /home/mspl/MsplProjects/MSPL/newDriveCle/drivecle/cle_app/build/firebase_messaging/intermediates/merged_manifest/debug/AndroidManifest.xml:27:13-98
+133            android:exported="true"
+133-->[:firebase_messaging] /home/mspl/MsplProjects/MSPL/newDriveCle/drivecle/cle_app/build/firebase_messaging/intermediates/merged_manifest/debug/AndroidManifest.xml:28:13-36
+134            android:permission="com.google.android.c2dm.permission.SEND" >
+134-->[:firebase_messaging] /home/mspl/MsplProjects/MSPL/newDriveCle/drivecle/cle_app/build/firebase_messaging/intermediates/merged_manifest/debug/AndroidManifest.xml:29:13-73
+135            <intent-filter>
+135-->[:firebase_messaging] /home/mspl/MsplProjects/MSPL/newDriveCle/drivecle/cle_app/build/firebase_messaging/intermediates/merged_manifest/debug/AndroidManifest.xml:30:13-32:29
+136                <action android:name="com.google.android.c2dm.intent.RECEIVE" />
+136-->[:firebase_messaging] /home/mspl/MsplProjects/MSPL/newDriveCle/drivecle/cle_app/build/firebase_messaging/intermediates/merged_manifest/debug/AndroidManifest.xml:31:17-81
+136-->[:firebase_messaging] /home/mspl/MsplProjects/MSPL/newDriveCle/drivecle/cle_app/build/firebase_messaging/intermediates/merged_manifest/debug/AndroidManifest.xml:31:25-78
+137            </intent-filter>
+138        </receiver>
+139
+140        <service
+140-->[:firebase_messaging] /home/mspl/MsplProjects/MSPL/newDriveCle/drivecle/cle_app/build/firebase_messaging/intermediates/merged_manifest/debug/AndroidManifest.xml:35:9-39:19
+141            android:name="com.google.firebase.components.ComponentDiscoveryService"
+141-->[:firebase_messaging] /home/mspl/MsplProjects/MSPL/newDriveCle/drivecle/cle_app/build/firebase_messaging/intermediates/merged_manifest/debug/AndroidManifest.xml:35:18-89
+142            android:directBootAware="true"
+142-->[com.google.firebase:firebase-common:20.1.1] /root/.gradle/caches/transforms-3/1b72ed41ac2ffa74175c9fdbe5e8a642/transformed/jetified-firebase-common-20.1.1/AndroidManifest.xml:35:13-43
+143            android:exported="false" >
+143-->[com.google.firebase:firebase-messaging:23.0.5] /root/.gradle/caches/transforms-3/3ad296278385ed3dad29098692776c3a/transformed/jetified-firebase-messaging-23.0.5/AndroidManifest.xml:54:13-37
+144            <meta-data
+144-->[:firebase_messaging] /home/mspl/MsplProjects/MSPL/newDriveCle/drivecle/cle_app/build/firebase_messaging/intermediates/merged_manifest/debug/AndroidManifest.xml:36:13-38:85
+145                android:name="com.google.firebase.components:io.flutter.plugins.firebase.messaging.FlutterFirebaseAppRegistrar"
+145-->[:firebase_messaging] /home/mspl/MsplProjects/MSPL/newDriveCle/drivecle/cle_app/build/firebase_messaging/intermediates/merged_manifest/debug/AndroidManifest.xml:37:17-128
+146                android:value="com.google.firebase.components.ComponentRegistrar" />
+146-->[:firebase_messaging] /home/mspl/MsplProjects/MSPL/newDriveCle/drivecle/cle_app/build/firebase_messaging/intermediates/merged_manifest/debug/AndroidManifest.xml:38:17-82
+147            <meta-data
+147-->[:firebase_core] /home/mspl/MsplProjects/MSPL/newDriveCle/drivecle/cle_app/build/firebase_core/intermediates/merged_manifest/debug/AndroidManifest.xml:11:13-13:85
+148                android:name="com.google.firebase.components:io.flutter.plugins.firebase.core.FlutterFirebaseCoreRegistrar"
+148-->[:firebase_core] /home/mspl/MsplProjects/MSPL/newDriveCle/drivecle/cle_app/build/firebase_core/intermediates/merged_manifest/debug/AndroidManifest.xml:12:17-124
+149                android:value="com.google.firebase.components.ComponentRegistrar" />
+149-->[:firebase_core] /home/mspl/MsplProjects/MSPL/newDriveCle/drivecle/cle_app/build/firebase_core/intermediates/merged_manifest/debug/AndroidManifest.xml:13:17-82
+150            <meta-data
+150-->[com.google.firebase:firebase-messaging:23.0.5] /root/.gradle/caches/transforms-3/3ad296278385ed3dad29098692776c3a/transformed/jetified-firebase-messaging-23.0.5/AndroidManifest.xml:55:13-57:85
+151                android:name="com.google.firebase.components:com.google.firebase.messaging.FirebaseMessagingRegistrar"
+151-->[com.google.firebase:firebase-messaging:23.0.5] /root/.gradle/caches/transforms-3/3ad296278385ed3dad29098692776c3a/transformed/jetified-firebase-messaging-23.0.5/AndroidManifest.xml:56:17-119
+152                android:value="com.google.firebase.components.ComponentRegistrar" />
+152-->[com.google.firebase:firebase-messaging:23.0.5] /root/.gradle/caches/transforms-3/3ad296278385ed3dad29098692776c3a/transformed/jetified-firebase-messaging-23.0.5/AndroidManifest.xml:57:17-82
+153            <meta-data
+153-->[com.google.firebase:firebase-datatransport:18.1.4] /root/.gradle/caches/transforms-3/bd7dfcbefaee64e9ba53862d41b385c0/transformed/jetified-firebase-datatransport-18.1.4/AndroidManifest.xml:28:13-30:85
+154                android:name="com.google.firebase.components:com.google.firebase.datatransport.TransportRegistrar"
+154-->[com.google.firebase:firebase-datatransport:18.1.4] /root/.gradle/caches/transforms-3/bd7dfcbefaee64e9ba53862d41b385c0/transformed/jetified-firebase-datatransport-18.1.4/AndroidManifest.xml:29:17-115
+155                android:value="com.google.firebase.components.ComponentRegistrar" />
+155-->[com.google.firebase:firebase-datatransport:18.1.4] /root/.gradle/caches/transforms-3/bd7dfcbefaee64e9ba53862d41b385c0/transformed/jetified-firebase-datatransport-18.1.4/AndroidManifest.xml:30:17-82
+156            <meta-data
+156-->[com.google.android.gms:play-services-measurement-api:21.0.0] /root/.gradle/caches/transforms-3/90165817247b2844e8eda7168c378e87/transformed/jetified-play-services-measurement-api-21.0.0/AndroidManifest.xml:31:13-33:85
+157                android:name="com.google.firebase.components:com.google.firebase.analytics.connector.internal.AnalyticsConnectorRegistrar"
+157-->[com.google.android.gms:play-services-measurement-api:21.0.0] /root/.gradle/caches/transforms-3/90165817247b2844e8eda7168c378e87/transformed/jetified-play-services-measurement-api-21.0.0/AndroidManifest.xml:32:17-139
+158                android:value="com.google.firebase.components.ComponentRegistrar" />
+158-->[com.google.android.gms:play-services-measurement-api:21.0.0] /root/.gradle/caches/transforms-3/90165817247b2844e8eda7168c378e87/transformed/jetified-play-services-measurement-api-21.0.0/AndroidManifest.xml:33:17-82
+159            <meta-data
+159-->[com.google.firebase:firebase-installations:17.0.1] /root/.gradle/caches/transforms-3/118766cae3881146134a1c07e32fbce9/transformed/jetified-firebase-installations-17.0.1/AndroidManifest.xml:18:13-20:85
+160                android:name="com.google.firebase.components:com.google.firebase.installations.FirebaseInstallationsRegistrar"
+160-->[com.google.firebase:firebase-installations:17.0.1] /root/.gradle/caches/transforms-3/118766cae3881146134a1c07e32fbce9/transformed/jetified-firebase-installations-17.0.1/AndroidManifest.xml:19:17-127
+161                android:value="com.google.firebase.components.ComponentRegistrar" />
+161-->[com.google.firebase:firebase-installations:17.0.1] /root/.gradle/caches/transforms-3/118766cae3881146134a1c07e32fbce9/transformed/jetified-firebase-installations-17.0.1/AndroidManifest.xml:20:17-82
+162        </service>
+163
+164        <provider
+164-->[:firebase_messaging] /home/mspl/MsplProjects/MSPL/newDriveCle/drivecle/cle_app/build/firebase_messaging/intermediates/merged_manifest/debug/AndroidManifest.xml:41:9-45:38
+165            android:name="io.flutter.plugins.firebase.messaging.FlutterFirebaseMessagingInitProvider"
+165-->[:firebase_messaging] /home/mspl/MsplProjects/MSPL/newDriveCle/drivecle/cle_app/build/firebase_messaging/intermediates/merged_manifest/debug/AndroidManifest.xml:42:13-102
+166            android:authorities="com.example.cle_app.flutterfirebasemessaginginitprovider"
+166-->[:firebase_messaging] /home/mspl/MsplProjects/MSPL/newDriveCle/drivecle/cle_app/build/firebase_messaging/intermediates/merged_manifest/debug/AndroidManifest.xml:43:13-88
+167            android:exported="false"
+167-->[:firebase_messaging] /home/mspl/MsplProjects/MSPL/newDriveCle/drivecle/cle_app/build/firebase_messaging/intermediates/merged_manifest/debug/AndroidManifest.xml:44:13-37
+168            android:initOrder="99" />
+168-->[:firebase_messaging] /home/mspl/MsplProjects/MSPL/newDriveCle/drivecle/cle_app/build/firebase_messaging/intermediates/merged_manifest/debug/AndroidManifest.xml:45:13-35
+169
+170        <service
+170-->[:geolocator_android] /home/mspl/MsplProjects/MSPL/newDriveCle/drivecle/cle_app/build/geolocator_android/intermediates/merged_manifest/debug/AndroidManifest.xml:12:9-16:56
+171            android:name="com.baseflow.geolocator.GeolocatorLocationService"
+171-->[:geolocator_android] /home/mspl/MsplProjects/MSPL/newDriveCle/drivecle/cle_app/build/geolocator_android/intermediates/merged_manifest/debug/AndroidManifest.xml:13:13-77
+172            android:enabled="true"
+172-->[:geolocator_android] /home/mspl/MsplProjects/MSPL/newDriveCle/drivecle/cle_app/build/geolocator_android/intermediates/merged_manifest/debug/AndroidManifest.xml:14:13-35
+173            android:exported="false"
+173-->[:geolocator_android] /home/mspl/MsplProjects/MSPL/newDriveCle/drivecle/cle_app/build/geolocator_android/intermediates/merged_manifest/debug/AndroidManifest.xml:15:13-37
+174            android:foregroundServiceType="location" />
+174-->[:geolocator_android] /home/mspl/MsplProjects/MSPL/newDriveCle/drivecle/cle_app/build/geolocator_android/intermediates/merged_manifest/debug/AndroidManifest.xml:16:13-53
+175
+176        <receiver
+176-->[:flutter_local_notifications] /home/mspl/MsplProjects/MSPL/newDriveCle/drivecle/cle_app/build/flutter_local_notifications/intermediates/merged_manifest/debug/AndroidManifest.xml:15:9-17:40
+177            android:name="com.dexterous.flutterlocalnotifications.ScheduledNotificationReceiver"
+177-->[:flutter_local_notifications] /home/mspl/MsplProjects/MSPL/newDriveCle/drivecle/cle_app/build/flutter_local_notifications/intermediates/merged_manifest/debug/AndroidManifest.xml:16:13-97
+178            android:exported="false" />
+178-->[:flutter_local_notifications] /home/mspl/MsplProjects/MSPL/newDriveCle/drivecle/cle_app/build/flutter_local_notifications/intermediates/merged_manifest/debug/AndroidManifest.xml:17:13-37
+179        <receiver
+179-->[:flutter_local_notifications] /home/mspl/MsplProjects/MSPL/newDriveCle/drivecle/cle_app/build/flutter_local_notifications/intermediates/merged_manifest/debug/AndroidManifest.xml:18:9-27:20
+180            android:name="com.dexterous.flutterlocalnotifications.ScheduledNotificationBootReceiver"
+180-->[:flutter_local_notifications] /home/mspl/MsplProjects/MSPL/newDriveCle/drivecle/cle_app/build/flutter_local_notifications/intermediates/merged_manifest/debug/AndroidManifest.xml:19:13-101
+181            android:exported="false" >
+181-->[:flutter_local_notifications] /home/mspl/MsplProjects/MSPL/newDriveCle/drivecle/cle_app/build/flutter_local_notifications/intermediates/merged_manifest/debug/AndroidManifest.xml:20:13-37
+182            <intent-filter>
+182-->[:flutter_local_notifications] /home/mspl/MsplProjects/MSPL/newDriveCle/drivecle/cle_app/build/flutter_local_notifications/intermediates/merged_manifest/debug/AndroidManifest.xml:21:13-26:29
+183                <action android:name="android.intent.action.BOOT_COMPLETED" />
+183-->[:flutter_local_notifications] /home/mspl/MsplProjects/MSPL/newDriveCle/drivecle/cle_app/build/flutter_local_notifications/intermediates/merged_manifest/debug/AndroidManifest.xml:22:17-79
+183-->[:flutter_local_notifications] /home/mspl/MsplProjects/MSPL/newDriveCle/drivecle/cle_app/build/flutter_local_notifications/intermediates/merged_manifest/debug/AndroidManifest.xml:22:25-76
+184                <action android:name="android.intent.action.MY_PACKAGE_REPLACED" />
+184-->[:flutter_local_notifications] /home/mspl/MsplProjects/MSPL/newDriveCle/drivecle/cle_app/build/flutter_local_notifications/intermediates/merged_manifest/debug/AndroidManifest.xml:23:17-84
+184-->[:flutter_local_notifications] /home/mspl/MsplProjects/MSPL/newDriveCle/drivecle/cle_app/build/flutter_local_notifications/intermediates/merged_manifest/debug/AndroidManifest.xml:23:25-81
+185                <action android:name="android.intent.action.QUICKBOOT_POWERON" />
+185-->[:flutter_local_notifications] /home/mspl/MsplProjects/MSPL/newDriveCle/drivecle/cle_app/build/flutter_local_notifications/intermediates/merged_manifest/debug/AndroidManifest.xml:24:17-82
+185-->[:flutter_local_notifications] /home/mspl/MsplProjects/MSPL/newDriveCle/drivecle/cle_app/build/flutter_local_notifications/intermediates/merged_manifest/debug/AndroidManifest.xml:24:25-79
+186                <action android:name="com.htc.intent.action.QUICKBOOT_POWERON" />
+186-->[:flutter_local_notifications] /home/mspl/MsplProjects/MSPL/newDriveCle/drivecle/cle_app/build/flutter_local_notifications/intermediates/merged_manifest/debug/AndroidManifest.xml:25:17-82
+186-->[:flutter_local_notifications] /home/mspl/MsplProjects/MSPL/newDriveCle/drivecle/cle_app/build/flutter_local_notifications/intermediates/merged_manifest/debug/AndroidManifest.xml:25:25-79
+187            </intent-filter>
+188        </receiver>
+189
+190        <service
+190-->[:xmpp_plugin] /home/mspl/MsplProjects/MSPL/newDriveCle/drivecle/cle_app/build/xmpp_plugin/intermediates/merged_manifest/debug/AndroidManifest.xml:10:9-13:40
+191            android:name="org.xrstudio.xmpp.flutter_xmpp.Connection.FlutterXmppConnectionService"
+191-->[:xmpp_plugin] /home/mspl/MsplProjects/MSPL/newDriveCle/drivecle/cle_app/build/xmpp_plugin/intermediates/merged_manifest/debug/AndroidManifest.xml:11:13-98
+192            android:enabled="true"
+192-->[:xmpp_plugin] /home/mspl/MsplProjects/MSPL/newDriveCle/drivecle/cle_app/build/xmpp_plugin/intermediates/merged_manifest/debug/AndroidManifest.xml:12:13-35
+193            android:exported="false" />
+193-->[:xmpp_plugin] /home/mspl/MsplProjects/MSPL/newDriveCle/drivecle/cle_app/build/xmpp_plugin/intermediates/merged_manifest/debug/AndroidManifest.xml:13:13-37
+194
+195        <provider
+195-->[:share] /home/mspl/MsplProjects/MSPL/newDriveCle/drivecle/cle_app/build/share/intermediates/merged_manifest/debug/AndroidManifest.xml:10:9-18:20
+196            android:name="io.flutter.plugins.share.ShareFileProvider"
+196-->[:share] /home/mspl/MsplProjects/MSPL/newDriveCle/drivecle/cle_app/build/share/intermediates/merged_manifest/debug/AndroidManifest.xml:11:13-70
+197            android:authorities="com.example.cle_app.flutter.share_provider"
+197-->[:share] /home/mspl/MsplProjects/MSPL/newDriveCle/drivecle/cle_app/build/share/intermediates/merged_manifest/debug/AndroidManifest.xml:12:13-74
+198            android:exported="false"
+198-->[:share] /home/mspl/MsplProjects/MSPL/newDriveCle/drivecle/cle_app/build/share/intermediates/merged_manifest/debug/AndroidManifest.xml:13:13-37
+199            android:grantUriPermissions="true" >
+199-->[:share] /home/mspl/MsplProjects/MSPL/newDriveCle/drivecle/cle_app/build/share/intermediates/merged_manifest/debug/AndroidManifest.xml:14:13-47
+200            <meta-data
+200-->[:share] /home/mspl/MsplProjects/MSPL/newDriveCle/drivecle/cle_app/build/share/intermediates/merged_manifest/debug/AndroidManifest.xml:15:13-17:68
+201                android:name="android.support.FILE_PROVIDER_PATHS"
+201-->[:share] /home/mspl/MsplProjects/MSPL/newDriveCle/drivecle/cle_app/build/share/intermediates/merged_manifest/debug/AndroidManifest.xml:16:17-67
+202                android:resource="@xml/flutter_share_file_paths" />
+202-->[:share] /home/mspl/MsplProjects/MSPL/newDriveCle/drivecle/cle_app/build/share/intermediates/merged_manifest/debug/AndroidManifest.xml:17:17-65
+203        </provider>
+204        <provider
+204-->[:image_picker_android] /home/mspl/MsplProjects/MSPL/newDriveCle/drivecle/cle_app/build/image_picker_android/intermediates/merged_manifest/debug/AndroidManifest.xml:10:9-18:20
+205            android:name="io.flutter.plugins.imagepicker.ImagePickerFileProvider"
+205-->[:image_picker_android] /home/mspl/MsplProjects/MSPL/newDriveCle/drivecle/cle_app/build/image_picker_android/intermediates/merged_manifest/debug/AndroidManifest.xml:11:13-82
+206            android:authorities="com.example.cle_app.flutter.image_provider"
+206-->[:image_picker_android] /home/mspl/MsplProjects/MSPL/newDriveCle/drivecle/cle_app/build/image_picker_android/intermediates/merged_manifest/debug/AndroidManifest.xml:12:13-74
+207            android:exported="false"
+207-->[:image_picker_android] /home/mspl/MsplProjects/MSPL/newDriveCle/drivecle/cle_app/build/image_picker_android/intermediates/merged_manifest/debug/AndroidManifest.xml:13:13-37
+208            android:grantUriPermissions="true" >
+208-->[:image_picker_android] /home/mspl/MsplProjects/MSPL/newDriveCle/drivecle/cle_app/build/image_picker_android/intermediates/merged_manifest/debug/AndroidManifest.xml:14:13-47
+209            <meta-data
+209-->[:share] /home/mspl/MsplProjects/MSPL/newDriveCle/drivecle/cle_app/build/share/intermediates/merged_manifest/debug/AndroidManifest.xml:15:13-17:68
+210                android:name="android.support.FILE_PROVIDER_PATHS"
+210-->[:share] /home/mspl/MsplProjects/MSPL/newDriveCle/drivecle/cle_app/build/share/intermediates/merged_manifest/debug/AndroidManifest.xml:16:17-67
+211                android:resource="@xml/flutter_image_picker_file_paths" />
+211-->[:share] /home/mspl/MsplProjects/MSPL/newDriveCle/drivecle/cle_app/build/share/intermediates/merged_manifest/debug/AndroidManifest.xml:17:17-65
+212        </provider>
+213        <provider
+213-->[:flutter_email_sender] /home/mspl/MsplProjects/MSPL/newDriveCle/drivecle/cle_app/build/flutter_email_sender/intermediates/merged_manifest/debug/AndroidManifest.xml:10:9-18:20
+214            android:name="com.sidlatau.flutteremailsender.FlutterEmailSenderFileProvider"
+214-->[:flutter_email_sender] /home/mspl/MsplProjects/MSPL/newDriveCle/drivecle/cle_app/build/flutter_email_sender/intermediates/merged_manifest/debug/AndroidManifest.xml:11:13-90
+215            android:authorities="com.example.cle_app.file_provider"
+215-->[:flutter_email_sender] /home/mspl/MsplProjects/MSPL/newDriveCle/drivecle/cle_app/build/flutter_email_sender/intermediates/merged_manifest/debug/AndroidManifest.xml:12:13-65
+216            android:exported="false"
+216-->[:flutter_email_sender] /home/mspl/MsplProjects/MSPL/newDriveCle/drivecle/cle_app/build/flutter_email_sender/intermediates/merged_manifest/debug/AndroidManifest.xml:13:13-37
+217            android:grantUriPermissions="true" >
+217-->[:flutter_email_sender] /home/mspl/MsplProjects/MSPL/newDriveCle/drivecle/cle_app/build/flutter_email_sender/intermediates/merged_manifest/debug/AndroidManifest.xml:14:13-47
+218            <meta-data
+218-->[:share] /home/mspl/MsplProjects/MSPL/newDriveCle/drivecle/cle_app/build/share/intermediates/merged_manifest/debug/AndroidManifest.xml:15:13-17:68
+219                android:name="android.support.FILE_PROVIDER_PATHS"
+219-->[:share] /home/mspl/MsplProjects/MSPL/newDriveCle/drivecle/cle_app/build/share/intermediates/merged_manifest/debug/AndroidManifest.xml:16:17-67
+220                android:resource="@xml/shared_file_paths" />
+220-->[:share] /home/mspl/MsplProjects/MSPL/newDriveCle/drivecle/cle_app/build/share/intermediates/merged_manifest/debug/AndroidManifest.xml:17:17-65
+221        </provider>
+222
+223        <activity
+223-->[:url_launcher_android] /home/mspl/MsplProjects/MSPL/newDriveCle/drivecle/cle_app/build/url_launcher_android/intermediates/merged_manifest/debug/AndroidManifest.xml:10:9-13:74
+224            android:name="io.flutter.plugins.urllauncher.WebViewActivity"
+224-->[:url_launcher_android] /home/mspl/MsplProjects/MSPL/newDriveCle/drivecle/cle_app/build/url_launcher_android/intermediates/merged_manifest/debug/AndroidManifest.xml:11:13-74
+225            android:exported="false"
+225-->[:url_launcher_android] /home/mspl/MsplProjects/MSPL/newDriveCle/drivecle/cle_app/build/url_launcher_android/intermediates/merged_manifest/debug/AndroidManifest.xml:12:13-37
+226            android:theme="@android:style/Theme.NoTitleBar.Fullscreen" />
+226-->[:url_launcher_android] /home/mspl/MsplProjects/MSPL/newDriveCle/drivecle/cle_app/build/url_launcher_android/intermediates/merged_manifest/debug/AndroidManifest.xml:13:13-71
+227
+228        <provider
+228-->[:open_file] /home/mspl/MsplProjects/MSPL/newDriveCle/drivecle/cle_app/build/open_file/intermediates/merged_manifest/debug/AndroidManifest.xml:14:9-23:20
+229            android:name="com.crazecoder.openfile.FileProvider"
+229-->[:open_file] /home/mspl/MsplProjects/MSPL/newDriveCle/drivecle/cle_app/build/open_file/intermediates/merged_manifest/debug/AndroidManifest.xml:15:13-64
+230            android:authorities="com.example.cle_app.fileProvider.com.crazecoder.openfile"
+230-->[:open_file] /home/mspl/MsplProjects/MSPL/newDriveCle/drivecle/cle_app/build/open_file/intermediates/merged_manifest/debug/AndroidManifest.xml:16:13-88
+231            android:exported="false"
+231-->[:open_file] /home/mspl/MsplProjects/MSPL/newDriveCle/drivecle/cle_app/build/open_file/intermediates/merged_manifest/debug/AndroidManifest.xml:17:13-37
+232            android:grantUriPermissions="true" >
+232-->[:open_file] /home/mspl/MsplProjects/MSPL/newDriveCle/drivecle/cle_app/build/open_file/intermediates/merged_manifest/debug/AndroidManifest.xml:18:13-47
+233            <meta-data
+233-->[:share] /home/mspl/MsplProjects/MSPL/newDriveCle/drivecle/cle_app/build/share/intermediates/merged_manifest/debug/AndroidManifest.xml:15:13-17:68
+234                android:name="android.support.FILE_PROVIDER_PATHS"
+234-->[:share] /home/mspl/MsplProjects/MSPL/newDriveCle/drivecle/cle_app/build/share/intermediates/merged_manifest/debug/AndroidManifest.xml:16:17-67
+235                android:resource="@xml/filepaths" />
+235-->[:share] /home/mspl/MsplProjects/MSPL/newDriveCle/drivecle/cle_app/build/share/intermediates/merged_manifest/debug/AndroidManifest.xml:17:17-65
+236        </provider>
+237
+238        <uses-library
+238-->[androidx.window:window:1.0.0-beta04] /root/.gradle/caches/transforms-3/6721def4093b8f6a6ac6b071b8e1fe2f/transformed/jetified-window-1.0.0-beta04/AndroidManifest.xml:25:9-27:40
+239            android:name="androidx.window.extensions"
+239-->[androidx.window:window:1.0.0-beta04] /root/.gradle/caches/transforms-3/6721def4093b8f6a6ac6b071b8e1fe2f/transformed/jetified-window-1.0.0-beta04/AndroidManifest.xml:26:13-54
+240            android:required="false" />
+240-->[androidx.window:window:1.0.0-beta04] /root/.gradle/caches/transforms-3/6721def4093b8f6a6ac6b071b8e1fe2f/transformed/jetified-window-1.0.0-beta04/AndroidManifest.xml:27:13-37
+241        <uses-library
+241-->[androidx.window:window:1.0.0-beta04] /root/.gradle/caches/transforms-3/6721def4093b8f6a6ac6b071b8e1fe2f/transformed/jetified-window-1.0.0-beta04/AndroidManifest.xml:28:9-30:40
+242            android:name="androidx.window.sidecar"
+242-->[androidx.window:window:1.0.0-beta04] /root/.gradle/caches/transforms-3/6721def4093b8f6a6ac6b071b8e1fe2f/transformed/jetified-window-1.0.0-beta04/AndroidManifest.xml:29:13-51
+243            android:required="false" />
+243-->[androidx.window:window:1.0.0-beta04] /root/.gradle/caches/transforms-3/6721def4093b8f6a6ac6b071b8e1fe2f/transformed/jetified-window-1.0.0-beta04/AndroidManifest.xml:30:13-37
+244
+245        <receiver
+245-->[com.google.firebase:firebase-messaging:23.0.5] /root/.gradle/caches/transforms-3/3ad296278385ed3dad29098692776c3a/transformed/jetified-firebase-messaging-23.0.5/AndroidManifest.xml:31:9-38:20
+246            android:name="com.google.firebase.iid.FirebaseInstanceIdReceiver"
+246-->[com.google.firebase:firebase-messaging:23.0.5] /root/.gradle/caches/transforms-3/3ad296278385ed3dad29098692776c3a/transformed/jetified-firebase-messaging-23.0.5/AndroidManifest.xml:32:13-78
+247            android:exported="true"
+247-->[com.google.firebase:firebase-messaging:23.0.5] /root/.gradle/caches/transforms-3/3ad296278385ed3dad29098692776c3a/transformed/jetified-firebase-messaging-23.0.5/AndroidManifest.xml:33:13-36
+248            android:permission="com.google.android.c2dm.permission.SEND" >
+248-->[com.google.firebase:firebase-messaging:23.0.5] /root/.gradle/caches/transforms-3/3ad296278385ed3dad29098692776c3a/transformed/jetified-firebase-messaging-23.0.5/AndroidManifest.xml:34:13-73
+249            <intent-filter>
+249-->[:firebase_messaging] /home/mspl/MsplProjects/MSPL/newDriveCle/drivecle/cle_app/build/firebase_messaging/intermediates/merged_manifest/debug/AndroidManifest.xml:30:13-32:29
+250                <action android:name="com.google.android.c2dm.intent.RECEIVE" />
+250-->[:firebase_messaging] /home/mspl/MsplProjects/MSPL/newDriveCle/drivecle/cle_app/build/firebase_messaging/intermediates/merged_manifest/debug/AndroidManifest.xml:31:17-81
+250-->[:firebase_messaging] /home/mspl/MsplProjects/MSPL/newDriveCle/drivecle/cle_app/build/firebase_messaging/intermediates/merged_manifest/debug/AndroidManifest.xml:31:25-78
+251            </intent-filter>
+252        </receiver>
+253        <!--
+254             FirebaseMessagingService performs security checks at runtime,
+255             but set to not exported to explicitly avoid allowing another app to call it.
+256        -->
+257        <service
+257-->[com.google.firebase:firebase-messaging:23.0.5] /root/.gradle/caches/transforms-3/3ad296278385ed3dad29098692776c3a/transformed/jetified-firebase-messaging-23.0.5/AndroidManifest.xml:44:9-51:19
+258            android:name="com.google.firebase.messaging.FirebaseMessagingService"
+258-->[com.google.firebase:firebase-messaging:23.0.5] /root/.gradle/caches/transforms-3/3ad296278385ed3dad29098692776c3a/transformed/jetified-firebase-messaging-23.0.5/AndroidManifest.xml:45:13-82
+259            android:directBootAware="true"
+259-->[com.google.firebase:firebase-messaging:23.0.5] /root/.gradle/caches/transforms-3/3ad296278385ed3dad29098692776c3a/transformed/jetified-firebase-messaging-23.0.5/AndroidManifest.xml:46:13-43
+260            android:exported="false" >
+260-->[com.google.firebase:firebase-messaging:23.0.5] /root/.gradle/caches/transforms-3/3ad296278385ed3dad29098692776c3a/transformed/jetified-firebase-messaging-23.0.5/AndroidManifest.xml:47:13-37
+261            <intent-filter android:priority="-500" >
+261-->[:firebase_messaging] /home/mspl/MsplProjects/MSPL/newDriveCle/drivecle/cle_app/build/firebase_messaging/intermediates/merged_manifest/debug/AndroidManifest.xml:21:13-23:29
+262                <action android:name="com.google.firebase.MESSAGING_EVENT" />
+262-->[:firebase_messaging] /home/mspl/MsplProjects/MSPL/newDriveCle/drivecle/cle_app/build/firebase_messaging/intermediates/merged_manifest/debug/AndroidManifest.xml:22:17-78
+262-->[:firebase_messaging] /home/mspl/MsplProjects/MSPL/newDriveCle/drivecle/cle_app/build/firebase_messaging/intermediates/merged_manifest/debug/AndroidManifest.xml:22:25-75
+263            </intent-filter>
+264        </service>
+265        <service
+265-->[com.google.android.datatransport:transport-backend-cct:3.1.5] /root/.gradle/caches/transforms-3/f2cf8f8c7687dac4304e534925724771/transformed/jetified-transport-backend-cct-3.1.5/AndroidManifest.xml:29:9-35:19
+266            android:name="com.google.android.datatransport.runtime.backends.TransportBackendDiscovery"
+266-->[com.google.android.datatransport:transport-backend-cct:3.1.5] /root/.gradle/caches/transforms-3/f2cf8f8c7687dac4304e534925724771/transformed/jetified-transport-backend-cct-3.1.5/AndroidManifest.xml:30:13-103
+267            android:exported="false" >
+267-->[com.google.android.datatransport:transport-backend-cct:3.1.5] /root/.gradle/caches/transforms-3/f2cf8f8c7687dac4304e534925724771/transformed/jetified-transport-backend-cct-3.1.5/AndroidManifest.xml:31:13-37
+268            <meta-data
+268-->[com.google.android.datatransport:transport-backend-cct:3.1.5] /root/.gradle/caches/transforms-3/f2cf8f8c7687dac4304e534925724771/transformed/jetified-transport-backend-cct-3.1.5/AndroidManifest.xml:32:13-34:39
+269                android:name="backend:com.google.android.datatransport.cct.CctBackendFactory"
+269-->[com.google.android.datatransport:transport-backend-cct:3.1.5] /root/.gradle/caches/transforms-3/f2cf8f8c7687dac4304e534925724771/transformed/jetified-transport-backend-cct-3.1.5/AndroidManifest.xml:33:17-94
+270                android:value="cct" />
+270-->[com.google.android.datatransport:transport-backend-cct:3.1.5] /root/.gradle/caches/transforms-3/f2cf8f8c7687dac4304e534925724771/transformed/jetified-transport-backend-cct-3.1.5/AndroidManifest.xml:34:17-36
+271        </service>
+272        <service
+272-->[com.google.android.datatransport:transport-runtime:3.1.5] /root/.gradle/caches/transforms-3/bff095a70f9e4517ad44e84ae01b05ed/transformed/jetified-transport-runtime-3.1.5/AndroidManifest.xml:26:9-30:19
+273            android:name="com.google.android.datatransport.runtime.scheduling.jobscheduling.JobInfoSchedulerService"
+273-->[com.google.android.datatransport:transport-runtime:3.1.5] /root/.gradle/caches/transforms-3/bff095a70f9e4517ad44e84ae01b05ed/transformed/jetified-transport-runtime-3.1.5/AndroidManifest.xml:27:13-117
+274            android:exported="false"
+274-->[com.google.android.datatransport:transport-runtime:3.1.5] /root/.gradle/caches/transforms-3/bff095a70f9e4517ad44e84ae01b05ed/transformed/jetified-transport-runtime-3.1.5/AndroidManifest.xml:28:13-37
+275            android:permission="android.permission.BIND_JOB_SERVICE" >
+275-->[com.google.android.datatransport:transport-runtime:3.1.5] /root/.gradle/caches/transforms-3/bff095a70f9e4517ad44e84ae01b05ed/transformed/jetified-transport-runtime-3.1.5/AndroidManifest.xml:29:13-69
+276        </service>
+277
+278        <receiver
+278-->[com.google.android.datatransport:transport-runtime:3.1.5] /root/.gradle/caches/transforms-3/bff095a70f9e4517ad44e84ae01b05ed/transformed/jetified-transport-runtime-3.1.5/AndroidManifest.xml:32:9-34:40
+279            android:name="com.google.android.datatransport.runtime.scheduling.jobscheduling.AlarmManagerSchedulerBroadcastReceiver"
+279-->[com.google.android.datatransport:transport-runtime:3.1.5] /root/.gradle/caches/transforms-3/bff095a70f9e4517ad44e84ae01b05ed/transformed/jetified-transport-runtime-3.1.5/AndroidManifest.xml:33:13-132
+280            android:exported="false" />
+280-->[com.google.android.datatransport:transport-runtime:3.1.5] /root/.gradle/caches/transforms-3/bff095a70f9e4517ad44e84ae01b05ed/transformed/jetified-transport-runtime-3.1.5/AndroidManifest.xml:34:13-37
+281
+282        <provider
+282-->[com.google.firebase:firebase-common:20.1.1] /root/.gradle/caches/transforms-3/1b72ed41ac2ffa74175c9fdbe5e8a642/transformed/jetified-firebase-common-20.1.1/AndroidManifest.xml:26:9-31:39
+283            android:name="com.google.firebase.provider.FirebaseInitProvider"
+283-->[com.google.firebase:firebase-common:20.1.1] /root/.gradle/caches/transforms-3/1b72ed41ac2ffa74175c9fdbe5e8a642/transformed/jetified-firebase-common-20.1.1/AndroidManifest.xml:27:13-77
+284            android:authorities="com.example.cle_app.firebaseinitprovider"
+284-->[com.google.firebase:firebase-common:20.1.1] /root/.gradle/caches/transforms-3/1b72ed41ac2ffa74175c9fdbe5e8a642/transformed/jetified-firebase-common-20.1.1/AndroidManifest.xml:28:13-72
+285            android:directBootAware="true"
+285-->[com.google.firebase:firebase-common:20.1.1] /root/.gradle/caches/transforms-3/1b72ed41ac2ffa74175c9fdbe5e8a642/transformed/jetified-firebase-common-20.1.1/AndroidManifest.xml:29:13-43
+286            android:exported="false"
+286-->[com.google.firebase:firebase-common:20.1.1] /root/.gradle/caches/transforms-3/1b72ed41ac2ffa74175c9fdbe5e8a642/transformed/jetified-firebase-common-20.1.1/AndroidManifest.xml:30:13-37
+287            android:initOrder="100" />
+287-->[com.google.firebase:firebase-common:20.1.1] /root/.gradle/caches/transforms-3/1b72ed41ac2ffa74175c9fdbe5e8a642/transformed/jetified-firebase-common-20.1.1/AndroidManifest.xml:31:13-36
+288
+289        <receiver
+289-->[com.google.android.gms:play-services-measurement:21.0.0] /root/.gradle/caches/transforms-3/3515b14a06022a5b1e9c2b526393d08e/transformed/jetified-play-services-measurement-21.0.0/AndroidManifest.xml:29:9-33:20
+290            android:name="com.google.android.gms.measurement.AppMeasurementReceiver"
+290-->[com.google.android.gms:play-services-measurement:21.0.0] /root/.gradle/caches/transforms-3/3515b14a06022a5b1e9c2b526393d08e/transformed/jetified-play-services-measurement-21.0.0/AndroidManifest.xml:30:13-85
+291            android:enabled="true"
+291-->[com.google.android.gms:play-services-measurement:21.0.0] /root/.gradle/caches/transforms-3/3515b14a06022a5b1e9c2b526393d08e/transformed/jetified-play-services-measurement-21.0.0/AndroidManifest.xml:31:13-35
+292            android:exported="false" >
+292-->[com.google.android.gms:play-services-measurement:21.0.0] /root/.gradle/caches/transforms-3/3515b14a06022a5b1e9c2b526393d08e/transformed/jetified-play-services-measurement-21.0.0/AndroidManifest.xml:32:13-37
+293        </receiver>
+294
+295        <service
+295-->[com.google.android.gms:play-services-measurement:21.0.0] /root/.gradle/caches/transforms-3/3515b14a06022a5b1e9c2b526393d08e/transformed/jetified-play-services-measurement-21.0.0/AndroidManifest.xml:35:9-38:40
+296            android:name="com.google.android.gms.measurement.AppMeasurementService"
+296-->[com.google.android.gms:play-services-measurement:21.0.0] /root/.gradle/caches/transforms-3/3515b14a06022a5b1e9c2b526393d08e/transformed/jetified-play-services-measurement-21.0.0/AndroidManifest.xml:36:13-84
+297            android:enabled="true"
+297-->[com.google.android.gms:play-services-measurement:21.0.0] /root/.gradle/caches/transforms-3/3515b14a06022a5b1e9c2b526393d08e/transformed/jetified-play-services-measurement-21.0.0/AndroidManifest.xml:37:13-35
+298            android:exported="false" />
+298-->[com.google.android.gms:play-services-measurement:21.0.0] /root/.gradle/caches/transforms-3/3515b14a06022a5b1e9c2b526393d08e/transformed/jetified-play-services-measurement-21.0.0/AndroidManifest.xml:38:13-37
+299        <service
+299-->[com.google.android.gms:play-services-measurement:21.0.0] /root/.gradle/caches/transforms-3/3515b14a06022a5b1e9c2b526393d08e/transformed/jetified-play-services-measurement-21.0.0/AndroidManifest.xml:39:9-43:72
+300            android:name="com.google.android.gms.measurement.AppMeasurementJobService"
+300-->[com.google.android.gms:play-services-measurement:21.0.0] /root/.gradle/caches/transforms-3/3515b14a06022a5b1e9c2b526393d08e/transformed/jetified-play-services-measurement-21.0.0/AndroidManifest.xml:40:13-87
+301            android:enabled="true"
+301-->[com.google.android.gms:play-services-measurement:21.0.0] /root/.gradle/caches/transforms-3/3515b14a06022a5b1e9c2b526393d08e/transformed/jetified-play-services-measurement-21.0.0/AndroidManifest.xml:41:13-35
+302            android:exported="false"
+302-->[com.google.android.gms:play-services-measurement:21.0.0] /root/.gradle/caches/transforms-3/3515b14a06022a5b1e9c2b526393d08e/transformed/jetified-play-services-measurement-21.0.0/AndroidManifest.xml:42:13-37
+303            android:permission="android.permission.BIND_JOB_SERVICE" /> <!-- Needs to be explicitly declared on P+ -->
+303-->[com.google.android.gms:play-services-measurement:21.0.0] /root/.gradle/caches/transforms-3/3515b14a06022a5b1e9c2b526393d08e/transformed/jetified-play-services-measurement-21.0.0/AndroidManifest.xml:43:13-69
+304        <uses-library
+304-->[com.google.android.gms:play-services-maps:17.0.0] /root/.gradle/caches/transforms-3/614181b2f6fee646dd418a7dc0328cbb/transformed/jetified-play-services-maps-17.0.0/AndroidManifest.xml:33:9-35:40
+305            android:name="org.apache.http.legacy"
+305-->[com.google.android.gms:play-services-maps:17.0.0] /root/.gradle/caches/transforms-3/614181b2f6fee646dd418a7dc0328cbb/transformed/jetified-play-services-maps-17.0.0/AndroidManifest.xml:34:13-50
+306            android:required="false" />
+306-->[com.google.android.gms:play-services-maps:17.0.0] /root/.gradle/caches/transforms-3/614181b2f6fee646dd418a7dc0328cbb/transformed/jetified-play-services-maps-17.0.0/AndroidManifest.xml:35:13-37
+307
+308        <activity
+308-->[com.google.android.gms:play-services-base:18.0.1] /root/.gradle/caches/transforms-3/8ea2bf508206083692d0459b7869a2f8/transformed/jetified-play-services-base-18.0.1/AndroidManifest.xml:20:9-22:45
+309            android:name="com.google.android.gms.common.api.GoogleApiActivity"
+309-->[com.google.android.gms:play-services-base:18.0.1] /root/.gradle/caches/transforms-3/8ea2bf508206083692d0459b7869a2f8/transformed/jetified-play-services-base-18.0.1/AndroidManifest.xml:20:19-85
+310            android:exported="false"
+310-->[com.google.android.gms:play-services-base:18.0.1] /root/.gradle/caches/transforms-3/8ea2bf508206083692d0459b7869a2f8/transformed/jetified-play-services-base-18.0.1/AndroidManifest.xml:22:19-43
+311            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
+311-->[com.google.android.gms:play-services-base:18.0.1] /root/.gradle/caches/transforms-3/8ea2bf508206083692d0459b7869a2f8/transformed/jetified-play-services-base-18.0.1/AndroidManifest.xml:21:19-78
+312
+313        <meta-data
+313-->[com.google.android.gms:play-services-basement:18.0.0] /root/.gradle/caches/transforms-3/a2ac5e54b6e8afeb63e0259ccc3e40f6/transformed/jetified-play-services-basement-18.0.0/AndroidManifest.xml:21:9-23:69
+314            android:name="com.google.android.gms.version"
+314-->[com.google.android.gms:play-services-basement:18.0.0] /root/.gradle/caches/transforms-3/a2ac5e54b6e8afeb63e0259ccc3e40f6/transformed/jetified-play-services-basement-18.0.0/AndroidManifest.xml:22:13-58
+315            android:value="@integer/google_play_services_version" />
+315-->[com.google.android.gms:play-services-basement:18.0.0] /root/.gradle/caches/transforms-3/a2ac5e54b6e8afeb63e0259ccc3e40f6/transformed/jetified-play-services-basement-18.0.0/AndroidManifest.xml:23:13-66
+316
+317        <provider
+317-->[androidx.emoji2:emoji2:1.0.0] /root/.gradle/caches/transforms-3/1bc3e42ddc58b6c3907e82af5691e907/transformed/jetified-emoji2-1.0.0/AndroidManifest.xml:26:9-34:20
+318            android:name="androidx.startup.InitializationProvider"
+318-->[androidx.emoji2:emoji2:1.0.0] /root/.gradle/caches/transforms-3/1bc3e42ddc58b6c3907e82af5691e907/transformed/jetified-emoji2-1.0.0/AndroidManifest.xml:27:13-67
+319            android:authorities="com.example.cle_app.androidx-startup"
+319-->[androidx.emoji2:emoji2:1.0.0] /root/.gradle/caches/transforms-3/1bc3e42ddc58b6c3907e82af5691e907/transformed/jetified-emoji2-1.0.0/AndroidManifest.xml:28:13-68
+320            android:exported="false" >
+320-->[androidx.emoji2:emoji2:1.0.0] /root/.gradle/caches/transforms-3/1bc3e42ddc58b6c3907e82af5691e907/transformed/jetified-emoji2-1.0.0/AndroidManifest.xml:29:13-37
+321            <meta-data
+321-->[androidx.emoji2:emoji2:1.0.0] /root/.gradle/caches/transforms-3/1bc3e42ddc58b6c3907e82af5691e907/transformed/jetified-emoji2-1.0.0/AndroidManifest.xml:31:13-33:52
+322                android:name="androidx.emoji2.text.EmojiCompatInitializer"
+322-->[androidx.emoji2:emoji2:1.0.0] /root/.gradle/caches/transforms-3/1bc3e42ddc58b6c3907e82af5691e907/transformed/jetified-emoji2-1.0.0/AndroidManifest.xml:32:17-75
+323                android:value="androidx.startup" />
+323-->[androidx.emoji2:emoji2:1.0.0] /root/.gradle/caches/transforms-3/1bc3e42ddc58b6c3907e82af5691e907/transformed/jetified-emoji2-1.0.0/AndroidManifest.xml:33:17-49
+324            <meta-data
+324-->[androidx.lifecycle:lifecycle-process:2.4.0] /root/.gradle/caches/transforms-3/b264da37bff38b118060b1f2df4b622c/transformed/jetified-lifecycle-process-2.4.0/AndroidManifest.xml:31:13-33:52
+325                android:name="androidx.lifecycle.ProcessLifecycleInitializer"
+325-->[androidx.lifecycle:lifecycle-process:2.4.0] /root/.gradle/caches/transforms-3/b264da37bff38b118060b1f2df4b622c/transformed/jetified-lifecycle-process-2.4.0/AndroidManifest.xml:32:17-78
+326                android:value="androidx.startup" />
+326-->[androidx.lifecycle:lifecycle-process:2.4.0] /root/.gradle/caches/transforms-3/b264da37bff38b118060b1f2df4b622c/transformed/jetified-lifecycle-process-2.4.0/AndroidManifest.xml:33:17-49
+327        </provider>
+328    </application>
+329
+330</manifest>

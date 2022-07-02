@@ -1,0 +1,23 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="org.xrstudio.xmpp" >
+4
+5    <uses-sdk
+6        android:minSdkVersion="16"
+6-->/root/snap/flutter/common/flutter/.pub-cache/hosted/pub.dartlang.org/xmpp_plugin-2.2.1/android/src/main/AndroidManifest.xml
+7        android:targetSdkVersion="16" />
+7-->/root/snap/flutter/common/flutter/.pub-cache/hosted/pub.dartlang.org/xmpp_plugin-2.2.1/android/src/main/AndroidManifest.xml
+8
+9    <application>
+9-->/root/snap/flutter/common/flutter/.pub-cache/hosted/pub.dartlang.org/xmpp_plugin-2.2.1/android/src/main/AndroidManifest.xml:4:5-10:19
+10        <service
+10-->/root/snap/flutter/common/flutter/.pub-cache/hosted/pub.dartlang.org/xmpp_plugin-2.2.1/android/src/main/AndroidManifest.xml:6:9-8:39
+11            android:name="org.xrstudio.xmpp.flutter_xmpp.Connection.FlutterXmppConnectionService"
+11-->/root/snap/flutter/common/flutter/.pub-cache/hosted/pub.dartlang.org/xmpp_plugin-2.2.1/android/src/main/AndroidManifest.xml:6:18-86
+12            android:enabled="true"
+12-->/root/snap/flutter/common/flutter/.pub-cache/hosted/pub.dartlang.org/xmpp_plugin-2.2.1/android/src/main/AndroidManifest.xml:7:13-35
+13            android:exported="false" />
+13-->/root/snap/flutter/common/flutter/.pub-cache/hosted/pub.dartlang.org/xmpp_plugin-2.2.1/android/src/main/AndroidManifest.xml:8:13-37
+14    </application>
+15
+16</manifest>
