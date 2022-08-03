@@ -6,20 +6,17 @@
     "configurations": [
         {
             "name": "cle_app",
-            "cwd": "cle_app",
             "request": "launch",
             "type": "dart"
         },
         {
             "name": "cle_app (profile mode)",
-            "cwd": "cle_app",
             "request": "launch",
             "type": "dart",
             "flutterMode": "profile"
         },
         {
             "name": "cle_app (release mode)",
-            "cwd": "cle_app",
             "request": "launch",
             "type": "dart",
             "flutterMode": "release"

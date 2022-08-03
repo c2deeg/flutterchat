@@ -1,0 +1,125 @@
+name: cle_app
+description: A new Flutter project.
+publish_to: 'none' # Remove this line if you wish to publish to pub.dev
+version: 1.0.0+1
+environment:
+  sdk: ">=2.17.0 <3.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+ # styling
+  font_awesome_flutter: ^10.1.0
+  flutter_spinkit: ^5.1.0
+  google_fonts: ^2.3.2
+  cupertino_icons: ^1.0.4
+  document_scanner_flutter: ^0.2.3
+
+  # data storage/manipulation
+  shared_preferences: ^2.0.13
+  drift: ^1.5.0
+  flutter_secure_storage: ^5.0.2
+  sqlite3_flutter_libs: ^0.5.6
+  rxdart: ^0.27.3
+
+ # state managment
+  provider: ^6.0.2
+  get: ^4.6.1
+
+ # image/file proccessing
+  flutter_image_compress: ^1.1.0
+  image_cropper: ^2.0.2
+  image_picker: ^0.8.5
+  image_picker_web: ^2.1.1
+  file_picker: ^4.5.1
+  open_file: ^3.2.1
+  # map
+  google_maps_flutter: ^2.1.4
+  google_maps_flutter_web: ^0.3.2+1
+  geolocator: ^8.2.1
+  flutter_polyline_points: ^1.0.0
+  socket_io_client: ^1.0.2
+  firebase_messaging: ^11.4.0
+  firebase_core: ^1.17.0
+  flutter_profile_picture: ^2.0.0
+  rounded_background_text: ^0.1.3
+
+  # services
+  nanoid: ^1.0.0
+  flutter_local_notifications: ^9.5.2
+  intl: ^0.17.0
+  xmpp_plugin: ^2.2.1
+  path: ^1.8.0
+  path_provider: ^2.0.9
+  local_auth: ^2.0.1
+  equatable: ^2.0.3
+
+ # networking
+  chopper: ^4.0.5
+  connectivity_plus: ^2.3.0
+
+  # util
+  charts_flutter: ^0.12.0
+  badges: ^2.0.2
+  flutter_date_pickers: ^0.3.0
+  swipeable_tile: ^1.0.0+11
+  fluttertoast: ^8.0.9
+  url_launcher: ^6.1.0
+  pdf: ^3.7.4
+  flutter_email_sender: ^5.1.0
+  sticky_headers: ^0.3.0
+  slide_to_act: ^2.0.1
+  scroll_to_index: ^3.0.1
+
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^1.0.4
+  drift_dev: ^1.5.2
+  build_runner: ^2.1.10
+  chopper_generator: ^4.0.5
+  flutter_launcher_icons: ^0.9.2
+  flutter_native_splash: ^2.1.6
+flutter_icons:
+  android: "launcher_icon"
+  ios: true
+  image_path: "assests/logos/app_logo.png"
+flutter_native_splash:
+  background_image: "assests/splash/splash.png"
+flutter:
+  uses-material-design: true
+  assets:
+    - assests/images/
+    - assests/logos/
+    - assests/map/
+    - assests/splash/
+
+  # An image asset can refer to one or more resolution-specific "variants", see
+  # https://flutter.dev/assets-and-images/#resolution-aware.
+
+  # For details regarding adding assets from package dependencies, see
+  # https://flutter.dev/assets-and-images/#from-packages
+
+  # To add custom fonts to your application, add a fonts section here,
+  # in this "flutter" section. Each entry in this list should have a
+  # "family" key with the font family name, and a "fonts" key with a
+  # list giving the asset and other descriptors for the font. For
+  # example:
+  fonts:
+    - family: Montserrat
+      fonts:
+        - asset: assests/fonts/OpenSans-Regular.ttf
+        - asset: assests/fonts/OpenSans-Bold.ttf
+          weight: 700
+  #   - family: Trajan Pro
+  #     fonts:
+  #       - asset: fonts/TrajanPro.ttf
+  #       - asset: fonts/TrajanPro_Bold.ttf
+  #         weight: 700
+    
+  #
+  # For details regarding fonts from package dependencies,
+  # see https://flutter.dev/custom-fonts/#from-packages
+flutter_intl:
+  enabled: true
